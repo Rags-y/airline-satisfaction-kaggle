@@ -1,0 +1,13 @@
+{
+    "model": "LogisticRegression",
+    "validation_roc_auc": 0.9204553922590752,
+    "random_state": 42,
+    "validation_size": 0.2,
+    "training_rows": 559708,
+    "validation_rows": 139927,
+    "feature_count_before_encoding": 21,
+    "numerical_feature_count": 17,
+    "categorical_feature_count": 4,
+    "target": "satisfaction",
+    "scikit_learn_version": "1.9.1"
+}
