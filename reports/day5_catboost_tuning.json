@@ -1,0 +1,22 @@
+[
+  {
+    "name": "depth6_lr005",
+    "iterations": 1200,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "validation_roc_auc": 0.957404571756148,
+    "best_iteration": 1186,
+    "elapsed_seconds": 345.44,
+    "model_path": "models\\day5_catboost_depth6_lr005.cbm"
+  },
+  {
+    "name": "depth8_lr003",
+    "iterations": 1500,
+    "depth": 8,
+    "learning_rate": 0.03,
+    "validation_roc_auc": 0.9576027841951112,
+    "best_iteration": 1480,
+    "elapsed_seconds": 591.31,
+    "model_path": "models\\day5_catboost_depth8_lr003.cbm"
+  }
+]
