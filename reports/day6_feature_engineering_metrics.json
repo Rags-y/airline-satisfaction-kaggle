@@ -1,0 +1,24 @@
+{
+  "experiment": "CatBoost with feature engineering",
+  "baseline_validation_roc_auc": 0.9577167082,
+  "validation_roc_auc": 0.957572325653237,
+  "auc_difference_from_baseline": -0.0001443825467629667,
+  "baseline_improved": false,
+  "best_iteration": 968,
+  "training_rows": 559708,
+  "validation_rows": 139927,
+  "original_feature_count": 21,
+  "engineered_feature_count": 28,
+  "categorical_features": [
+    "Gender",
+    "Customer Type",
+    "Type of Travel",
+    "Class",
+    "age_group"
+  ],
+  "random_state": 42,
+  "iterations": 1000,
+  "depth": 8,
+  "learning_rate": 0.05,
+  "elapsed_seconds": 439.64
+}
