@@ -1,0 +1,21 @@
+{
+  "experiment": "CatBoost random seed comparison",
+  "validation_roc_auc": 0.9575462869289206,
+  "day4_reference_validation_roc_auc": 0.9577167082,
+  "difference_from_day4": -0.00017042127107935734,
+  "best_iteration": 996,
+  "training_rows": 559708,
+  "validation_rows": 139927,
+  "random_state_split": 42,
+  "model_random_seed": 123,
+  "iterations": 1000,
+  "depth": 8,
+  "learning_rate": 0.05,
+  "categorical_features": [
+    "Gender",
+    "Customer Type",
+    "Type of Travel",
+    "Class"
+  ],
+  "elapsed_seconds": 387.7
+}
