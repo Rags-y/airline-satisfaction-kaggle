@@ -1,0 +1,42 @@
+feature,importance
+Online boarding,0.29149643
+Class_Business,0.13348448
+Type of Travel_Business travel,0.09769915
+Type of Travel_Personal Travel,0.088028714
+Inflight wifi service,0.08634758
+service_rating_max,0.06911445
+Customer Type_Loyal Customer,0.039070904
+Customer Type_disloyal Customer,0.034820933
+high_rating_count,0.02620793
+entertainment_seat_interaction,0.020969134
+booking_wifi_interaction,0.014226478
+wifi_boarding_interaction,0.011000456
+Inflight entertainment,0.010856994
+Ease of Online booking,0.008889259
+Class_Eco,0.007950127
+Baggage handling,0.0062023136
+Checkin service,0.005962161
+Cleanliness,0.005211336
+Gate location,0.004403484
+On-board service,0.0043385057
+Seat comfort,0.0036693895
+age_group,0.0034904343
+Leg room service,0.0028202422
+Departure/Arrival time convenient,0.0026256542
+Age,0.0017844514
+Arrival Delay in Minutes,0.0016067232
+log_flight_distance,0.0016050502
+service_rating_min,0.001571373
+Food and drink,0.0014623982
+service_rating_mean,0.0014214588
+service_rating_sum,0.0014165199
+Class_Eco Plus,0.0013619933
+Flight Distance,0.0011912655
+low_rating_count,0.0010705225
+log_total_delay,0.0010671571
+total_delay,0.0009985175
+service_rating_std,0.0009751939
+delay_difference,0.000925781
+Gender_Male,0.0009171481
+Departure Delay in Minutes,0.00086915476
+Gender_Female,0.0008686696

@@ -1,0 +1,9 @@
+{
+  "experiment": "Day 16 - XGBoost feature engineering",
+  "validation_roc_auc": 0.9576196700957789,
+  "best_iteration": 604,
+  "training_rows": 559708,
+  "validation_rows": 139927,
+  "feature_count": 41,
+  "elapsed_seconds": 66.42
+}
