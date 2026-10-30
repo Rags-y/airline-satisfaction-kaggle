@@ -1,0 +1,64 @@
+{
+  "experiment": "Day 19 - LightGBM XGBoost ensemble",
+  "individual_scores": {
+    "lightgbm": 0.9577462514440702,
+    "xgboost": 0.958001736412414
+  },
+  "best_ensemble": {
+    "lightgbm_weight": 0.3,
+    "xgboost_weight": 0.7,
+    "validation_roc_auc": 0.9580543239434606
+  },
+  "top_10_ensembles": [
+    {
+      "lightgbm_weight": 0.3,
+      "xgboost_weight": 0.7,
+      "validation_roc_auc": 0.9580543239434606
+    },
+    {
+      "lightgbm_weight": 0.25,
+      "xgboost_weight": 0.75,
+      "validation_roc_auc": 0.9580533424745399
+    },
+    {
+      "lightgbm_weight": 0.35,
+      "xgboost_weight": 0.65,
+      "validation_roc_auc": 0.9580525619346351
+    },
+    {
+      "lightgbm_weight": 0.2,
+      "xgboost_weight": 0.8,
+      "validation_roc_auc": 0.9580485808086462
+    },
+    {
+      "lightgbm_weight": 0.4,
+      "xgboost_weight": 0.6,
+      "validation_roc_auc": 0.9580474638005851
+    },
+    {
+      "lightgbm_weight": 0.15,
+      "xgboost_weight": 0.85,
+      "validation_roc_auc": 0.9580408693558107
+    },
+    {
+      "lightgbm_weight": 0.45,
+      "xgboost_weight": 0.55,
+      "validation_roc_auc": 0.9580394026360743
+    },
+    {
+      "lightgbm_weight": 0.1,
+      "xgboost_weight": 0.9,
+      "validation_roc_auc": 0.9580306312878537
+    },
+    {
+      "lightgbm_weight": 0.5,
+      "xgboost_weight": 0.5,
+      "validation_roc_auc": 0.958028062872875
+    },
+    {
+      "lightgbm_weight": 0.05,
+      "xgboost_weight": 0.95,
+      "validation_roc_auc": 0.9580175965611442
+    }
+  ]
+}
