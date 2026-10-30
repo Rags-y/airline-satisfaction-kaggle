@@ -6,3 +6,6 @@ seaborn
 jupyter
 joblib
 catboost
+
+xgboost
+lightgbm
