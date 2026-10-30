@@ -1,0 +1,89 @@
+{
+  "experiment": "Day 18 - Day 9 vs Day 11 ensemble",
+  "validation_rows": 139927,
+  "individual_scores": {
+    "day9_catboost": 0.9576027841951112,
+    "day11_catboost": 0.957744399627631,
+    "day12_xgboost": 0.958001736412414
+  },
+  "best_ensemble": {
+    "ensemble": "day11_catboost + day12_xgboost",
+    "catboost_model": "day11",
+    "catboost_weight": 0.3,
+    "xgboost_weight": 0.7,
+    "validation_roc_auc": 0.9580802992437364
+  },
+  "top_10_ensembles": [
+    {
+      "ensemble": "day11_catboost + day12_xgboost",
+      "catboost_model": "day11",
+      "catboost_weight": 0.3,
+      "xgboost_weight": 0.7,
+      "validation_roc_auc": 0.9580802992437364
+    },
+    {
+      "ensemble": "day11_catboost + day12_xgboost",
+      "catboost_model": "day11",
+      "catboost_weight": 0.4,
+      "xgboost_weight": 0.6,
+      "validation_roc_auc": 0.9580766742442524
+    },
+    {
+      "ensemble": "day11_catboost + day12_xgboost",
+      "catboost_model": "day11",
+      "catboost_weight": 0.2,
+      "xgboost_weight": 0.8,
+      "validation_roc_auc": 0.9580692419399671
+    },
+    {
+      "ensemble": "day11_catboost + day12_xgboost",
+      "catboost_model": "day11",
+      "catboost_weight": 0.5,
+      "xgboost_weight": 0.5,
+      "validation_roc_auc": 0.9580577012477522
+    },
+    {
+      "ensemble": "day11_catboost + day12_xgboost",
+      "catboost_model": "day11",
+      "catboost_weight": 0.1,
+      "xgboost_weight": 0.9,
+      "validation_roc_auc": 0.9580429243774956
+    },
+    {
+      "ensemble": "day9_catboost + day12_xgboost",
+      "catboost_model": "day9",
+      "catboost_weight": 0.2,
+      "xgboost_weight": 0.8,
+      "validation_roc_auc": 0.9580348719040442
+    },
+    {
+      "ensemble": "day9_catboost + day12_xgboost",
+      "catboost_model": "day9",
+      "catboost_weight": 0.3,
+      "xgboost_weight": 0.7,
+      "validation_roc_auc": 0.9580297354879468
+    },
+    {
+      "ensemble": "day9_catboost + day12_xgboost",
+      "catboost_model": "day9",
+      "catboost_weight": 0.1,
+      "xgboost_weight": 0.9,
+      "validation_roc_auc": 0.9580254565897092
+    },
+    {
+      "ensemble": "day11_catboost + day12_xgboost",
+      "catboost_model": "day11",
+      "catboost_weight": 0.6,
+      "xgboost_weight": 0.4,
+      "validation_roc_auc": 0.9580239888353227
+    },
+    {
+      "ensemble": "day9_catboost + day12_xgboost",
+      "catboost_model": "day9",
+      "catboost_weight": 0.4,
+      "xgboost_weight": 0.6,
+      "validation_roc_auc": 0.9580104972072054
+    }
+  ],
+  "day17_reference_validation_auc": 0.9580802998645265
+}

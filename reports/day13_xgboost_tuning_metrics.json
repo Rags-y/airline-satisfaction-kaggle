@@ -1,0 +1,38 @@
+{
+  "experiment": "Day 13 - XGBoost depth tuning",
+  "random_state": 42,
+  "training_rows": 559708,
+  "validation_rows": 139927,
+  "results": [
+    {
+      "model": "XGBoost",
+      "max_depth": 7,
+      "validation_roc_auc": 0.957883292378868,
+      "best_iteration": 1061,
+      "elapsed_seconds": 134.55,
+      "parameters": {
+        "learning_rate": 0.03,
+        "min_child_weight": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 2.0
+      }
+    },
+    {
+      "model": "XGBoost",
+      "max_depth": 9,
+      "validation_roc_auc": 0.9579701890049569,
+      "best_iteration": 566,
+      "elapsed_seconds": 90.13,
+      "parameters": {
+        "learning_rate": 0.03,
+        "min_child_weight": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 2.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "experiment": "Day 12 - LightGBM vs XGBoost",
+  "random_state": 42,
+  "training_rows": 559708,
+  "validation_rows": 139927,
+  "results": [
+    {
+      "model": "LightGBM",
+      "validation_roc_auc": 0.9577462514440702,
+      "best_iteration": 1400,
+      "elapsed_seconds": 52.63,
+      "parameters": {
+        "learning_rate": 0.03,
+        "num_leaves": 31,
+        "n_estimators": 2000
+      }
+    },
+    {
+      "model": "XGBoost",
+      "validation_roc_auc": 0.958001736412414,
+      "best_iteration": 624,
+      "elapsed_seconds": 89.95,
+      "parameters": {
+        "learning_rate": 0.03,
+        "max_depth": 8,
+        "n_estimators": 2000
+      }
+    }
+  ]
+}

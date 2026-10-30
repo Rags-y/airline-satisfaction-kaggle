@@ -1,0 +1,27 @@
+feature,importance
+Online boarding,0.22796513
+Class_Business,0.20912072
+Type of Travel_Business travel,0.123037405
+Inflight wifi service,0.08575044
+Class_Eco,0.08038717
+Customer Type_Loyal Customer,0.057350982
+Inflight entertainment,0.045941982
+Customer Type_disloyal Customer,0.038359467
+Type of Travel_Personal Travel,0.03743918
+Seat comfort,0.020263148
+Ease of Online booking,0.010289524
+Checkin service,0.010218679
+Baggage handling,0.009026743
+On-board service,0.008676579
+Cleanliness,0.008178958
+Leg room service,0.005038795
+Gate location,0.004939364
+Departure/Arrival time convenient,0.0035116142
+Age,0.002696587
+Class_Eco Plus,0.0026251387
+Flight Distance,0.0018754419
+Arrival Delay in Minutes,0.0018365987
+Food and drink,0.0016259657
+Gender_Female,0.0013112981
+Departure Delay in Minutes,0.0012917022
+Gender_Male,0.0012414493

@@ -1,0 +1,50 @@
+[
+  {
+    "seed": 42,
+    "candidate": "Day20",
+    "catboost_weight": 0.25,
+    "xgboost_weight": 0.6,
+    "lightgbm_weight": 0.15,
+    "validation_roc_auc": 0.9580932892735691
+  },
+  {
+    "seed": 42,
+    "candidate": "Day21_best",
+    "catboost_weight": 0.2,
+    "xgboost_weight": 0.65,
+    "lightgbm_weight": 0.15,
+    "validation_roc_auc": 0.9580912890883303
+  },
+  {
+    "seed": 42,
+    "candidate": "Middle",
+    "catboost_weight": 0.225,
+    "xgboost_weight": 0.625,
+    "lightgbm_weight": 0.15,
+    "validation_roc_auc": 0.9580931404909095
+  },
+  {
+    "seed": 123,
+    "candidate": "Day20",
+    "catboost_weight": 0.25,
+    "xgboost_weight": 0.6,
+    "lightgbm_weight": 0.15,
+    "validation_roc_auc": 0.9661899306887435
+  },
+  {
+    "seed": 123,
+    "candidate": "Day21_best",
+    "catboost_weight": 0.2,
+    "xgboost_weight": 0.65,
+    "lightgbm_weight": 0.15,
+    "validation_roc_auc": 0.966281346769178
+  },
+  {
+    "seed": 123,
+    "candidate": "Middle",
+    "catboost_weight": 0.225,
+    "xgboost_weight": 0.625,
+    "lightgbm_weight": 0.15,
+    "validation_roc_auc": 0.9662362927311795
+  }
+]

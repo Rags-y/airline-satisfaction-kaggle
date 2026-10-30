@@ -1,0 +1,106 @@
+{
+  "experiment": "Day 15 - Three-model ensemble",
+  "validation_rows": 139927,
+  "individual_scores": {
+    "day4_catboost": 0.9577167081535213,
+    "day11_catboost": 0.957744399627631,
+    "day12_xgboost": 0.958001736412414
+  },
+  "best_ensemble": {
+    "models": "day11_catboost + day12_xgboost",
+    "weights": {
+      "day11_catboost": 0.3,
+      "day12_xgboost": 0.7
+    },
+    "validation_roc_auc": 0.9580802998645265
+  },
+  "top_10_ensembles": [
+    {
+      "models": "day11_catboost + day12_xgboost",
+      "weights": {
+        "day11_catboost": 0.3,
+        "day12_xgboost": 0.7
+      },
+      "validation_roc_auc": 0.9580802998645265
+    },
+    {
+      "models": "three_model_ensemble",
+      "weights": {
+        "day4_catboost": 0.0,
+        "day11_catboost": 0.3,
+        "day12_xgboost": 0.7
+      },
+      "validation_roc_auc": 0.9580802992437364
+    },
+    {
+      "models": "three_model_ensemble",
+      "weights": {
+        "day4_catboost": 0.1,
+        "day11_catboost": 0.2,
+        "day12_xgboost": 0.7
+      },
+      "validation_roc_auc": 0.9580800631366229
+    },
+    {
+      "models": "three_model_ensemble",
+      "weights": {
+        "day4_catboost": 0.1,
+        "day11_catboost": 0.3,
+        "day12_xgboost": 0.6
+      },
+      "validation_roc_auc": 0.9580791036022809
+    },
+    {
+      "models": "day11_catboost + day12_xgboost",
+      "weights": {
+        "day11_catboost": 0.4,
+        "day12_xgboost": 0.6
+      },
+      "validation_roc_auc": 0.9580766758996923
+    },
+    {
+      "models": "three_model_ensemble",
+      "weights": {
+        "day4_catboost": 0.0,
+        "day11_catboost": 0.4,
+        "day12_xgboost": 0.6
+      },
+      "validation_roc_auc": 0.9580766742442524
+    },
+    {
+      "models": "three_model_ensemble",
+      "weights": {
+        "day4_catboost": 0.2,
+        "day11_catboost": 0.2,
+        "day12_xgboost": 0.6
+      },
+      "validation_roc_auc": 0.9580763276365267
+    },
+    {
+      "models": "three_model_ensemble",
+      "weights": {
+        "day4_catboost": 0.2,
+        "day11_catboost": 0.1,
+        "day12_xgboost": 0.7
+      },
+      "validation_roc_auc": 0.9580751961433668
+    },
+    {
+      "models": "day11_catboost + day12_xgboost",
+      "weights": {
+        "day11_catboost": 0.2,
+        "day12_xgboost": 0.8
+      },
+      "validation_roc_auc": 0.958069245664707
+    },
+    {
+      "models": "three_model_ensemble",
+      "weights": {
+        "day4_catboost": 0.0,
+        "day11_catboost": 0.2,
+        "day12_xgboost": 0.8
+      },
+      "validation_roc_auc": 0.9580692419399671
+    }
+  ]
+}

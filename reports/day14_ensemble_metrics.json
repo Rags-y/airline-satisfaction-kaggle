@@ -1,0 +1,39 @@
+{
+  "experiment": "Day 14 CatBoost XGBoost ensemble",
+  "individual_scores": {
+    "catboost_day4": 0.9577167081535213,
+    "xgboost_day12": 0.958001736412414
+  },
+  "ensemble_results": [
+    {
+      "catboost_weight": 0.3,
+      "xgboost_weight": 0.7,
+      "validation_roc_auc": 0.9580646903080086
+    },
+    {
+      "catboost_weight": 0.4,
+      "xgboost_weight": 0.6,
+      "validation_roc_auc": 0.9580547644973995
+    },
+    {
+      "catboost_weight": 0.5,
+      "xgboost_weight": 0.5,
+      "validation_roc_auc": 0.9580317843017323
+    },
+    {
+      "catboost_weight": 0.6,
+      "xgboost_weight": 0.4,
+      "validation_roc_auc": 0.9579950612649454
+    },
+    {
+      "catboost_weight": 0.7,
+      "xgboost_weight": 0.30000000000000004,
+      "validation_roc_auc": 0.9579441384856315
+    }
+  ],
+  "best_ensemble": {
+    "catboost_weight": 0.3,
+    "xgboost_weight": 0.7,
+    "validation_roc_auc": 0.9580646903080086
+  }
+}
