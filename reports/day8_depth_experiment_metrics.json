@@ -1,0 +1,12 @@
+{
+    "experiment": "Day 8 - CatBoost Depth 7",
+    "iterations": 1000,
+    "depth": 7,
+    "learning_rate": 0.05,
+    "random_seed": 42,
+    "best_iteration": 999,
+    "validation_roc_auc": 0.9575257297799175,
+    "elapsed_seconds": 328.33,
+    "reference_day4_validation_roc_auc": 0.9577167082,
+    "difference_from_day4": -0.0001909784
+}
