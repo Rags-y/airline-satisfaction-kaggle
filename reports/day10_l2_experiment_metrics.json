@@ -1,0 +1,20 @@
+{
+  "experiment": "CatBoost L2 regularization",
+  "model": "CatBoostClassifier",
+  "validation_roc_auc": 0.9577042075131041,
+  "best_iteration": 953,
+  "training_rows": 559708,
+  "validation_rows": 139927,
+  "random_state": 42,
+  "iterations": 1000,
+  "depth": 8,
+  "learning_rate": 0.05,
+  "l2_leaf_reg": 5,
+  "categorical_features": [
+    "Gender",
+    "Customer Type",
+    "Type of Travel",
+    "Class"
+  ],
+  "elapsed_seconds": 409.39
+}
