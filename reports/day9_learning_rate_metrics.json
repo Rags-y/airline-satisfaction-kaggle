@@ -1,0 +1,12 @@
+{
+    "experiment": "Day 9 - CatBoost Learning Rate 0.03",
+    "iterations": 1500,
+    "depth": 8,
+    "learning_rate": 0.03,
+    "random_seed": 42,
+    "best_iteration": 1480,
+    "validation_roc_auc": 0.9576027841951112,
+    "elapsed_seconds": 499.28,
+    "reference_day4_validation_roc_auc": 0.9577167082,
+    "difference_from_day4": -0.000113924
+}
